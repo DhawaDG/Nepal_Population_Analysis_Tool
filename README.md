@@ -11,21 +11,6 @@ The Nepal Population Analysis Tool is a **Command-Line Interface (CLI)-based** p
 - **Save Analysis** – Store results for further reference.  
 - **User-Friendly CLI** – Interactive menu for easy navigation.  
 
-***Project Structure***  
-Nepal_Population_Analysis_Tool/ 
-    |├── main.py # Main CLI interface 
-     ├── data_operations.py # Dataset handling 
-     ├── statistics.py # Statistical calculations 
-     ├── visualization.py # Data visualization 
-     ├── save_analysis.py # Result saving 
-     └── data/ # Dataset files 
-        ├── province1.csv 
-        ├── province2.csv 
-        ├── province3.csv 
-        ├── province4.csv 
-        ├── province5.csv 
-        ├── province6.csv 
-        └── province7.csv
 
 
 ***Technologies Used***  
