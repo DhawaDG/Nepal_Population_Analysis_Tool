@@ -13,7 +13,7 @@ The Nepal Population Analysis Tool is a **Command-Line Interface (CLI)-based** p
 
 ***Project Structure***  
 Nepal_Population_Analysis_Tool/ 
-│ ├── main.py # Main CLI interface 
+├── main.py # Main CLI interface 
 ├── data_operations.py # Dataset handling 
 ├── statistics.py # Statistical calculations 
 ├── visualization.py # Data visualization 
@@ -38,57 +38,61 @@ Nepal_Population_Analysis_Tool/
 
 1. Clone the Repositor
 
-cmd 
+    cmd 
 
-git clone https://github.com/DhawaDG/Nepal_Population_Analysis_Tool.git
-cd Nepal_Population_Analysis_Tool
+    git clone https://github.com/DhawaDG/Nepal_Population_Analysis_Tool.git
 
-2. Install Dependencies
+    cd Nepal_Population_Analysis_Tool
 
-cmd
+3. Install Dependencies
 
-pip install -r requirements.txt
+    cmd
+
+    pip install -r requirements.txt
 
 3. Run the Application
 
-cmd
+    cmd
 
-python main.py
+    python main.py
 
 ***Sample Output***
-Basic Statistics Example
 
-Mean: 123,456.78
-Median: 100,000.00
-Mode: 98,000.00
-Variance: 1,234,567,890.00
-Standard Deviation: 35,678.90
-IQR: 45,678.90
-MAD: 22,345.67
+    Basic Statistics Example
 
-***Challenges & Solutions****
+    Mean: 123,456.78
+    Median: 100,000.00
+    Mode: 98,000.00
+    Variance: 1,234,567,890.00
+    Standard Deviation: 35,678.90
+    IQR: 45,678.90
+    MAD: 22,345.67
 
-Data Integrity – Implemented missing data checks to handle incomplete datasets.
+***Challenges & Solutions***
 
-Performance Optimization – Used pandas.mode() for efficient mode calculation.
+    Data Integrity – Implemented missing data checks to handle incomplete datasets.
 
-Enhanced Visualization – Improved graphical representations using seaborn.
+    Performance Optimization – Used pandas.mode() for efficient mode calculation.
+
+    Enhanced Visualization – Improved graphical representations using seaborn.
 
 ***Future Roadmap***
 
-Support for uploading custom datasets.
+    Support for uploading custom datasets.
 
-Advanced statistical metrics such as Skewness and Kurtosis.
+    Advanced statistical metrics such as Skewness and Kurtosis.
 
-Trend analysis and geographical visualization.
+    Trend analysis and geographical visualization.
 
-Development of an interactive GUI or web dashboard.
+    Development of an interactive GUI or web dashboard.
 
 ***Author***
-Dhawa Dorje Ghising (DhawaDG)
+
+    Dhawa Dorje Ghising (DhawaDG)
 
 ***License**
-This project is licensed under the MIT License. See the file LICENSE for details.
+
+    This project is licensed under the MIT License. See the file LICENSE for details.
 
 
 
