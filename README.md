@@ -6,7 +6,9 @@
 ---
 ***Overview***  
 The Nepal Population Analysis Tool is a **Command-Line Interface (CLI)-based** program designed to analyze population data from Nepalese provinces. It provides statistical insights and visualizations for predefined datasets stored as CSV files.
+
 ---
+
 ***Features & Functionalities***  
 - **Load Population Data** – Read predefined datasets from CSV files.  
 - **Calculate Statistics** – Compute mean, median, mode, variance, standard deviation, IQR, and MAD.  
