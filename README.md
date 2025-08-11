@@ -3,9 +3,10 @@
 
 ![Project Logo](logo/Popupalation_Demography.jpg)
 
+---
 ***Overview***  
 The Nepal Population Analysis Tool is a **Command-Line Interface (CLI)-based** program designed to analyze population data from Nepalese provinces. It provides statistical insights and visualizations for predefined datasets stored as CSV files.
-
+---
 ***Features & Functionalities***  
 - **Load Population Data** – Read predefined datasets from CSV files.  
 - **Calculate Statistics** – Compute mean, median, mode, variance, standard deviation, IQR, and MAD.  
@@ -13,13 +14,15 @@ The Nepal Population Analysis Tool is a **Command-Line Interface (CLI)-based** p
 - **Save Analysis** – Store results for further reference.  
 - **User-Friendly CLI** – Interactive menu for easy navigation.  
 
-
+---
 
 ***Technologies Used***  
 - **Python Libraries**: `pandas`, `numpy`, `scipy.stats`, `matplotlib`, `seaborn`  
 - **Data Processing**: CSV file handling with `pandas`  
 - **Statistical Analysis**: Mean, Median, Mode, Variance, Standard Deviation  
 - **Visualization**: Histograms and Kernel Density Estimation (KDE) plots  
+
+---
 
 ***Installation & Usage***  
 
@@ -43,6 +46,8 @@ The Nepal Population Analysis Tool is a **Command-Line Interface (CLI)-based** p
 
     python main.py
 
+---
+
 ***Sample Output***
 
     Basic Statistics Example
@@ -55,6 +60,8 @@ The Nepal Population Analysis Tool is a **Command-Line Interface (CLI)-based** p
     IQR: 45,678.90
     MAD: 22,345.67
 
+---
+
 ***Challenges & Solutions***
 
     Data Integrity – Implemented missing data checks to handle incomplete datasets.
@@ -62,6 +69,8 @@ The Nepal Population Analysis Tool is a **Command-Line Interface (CLI)-based** p
     Performance Optimization – Used pandas.mode() for efficient mode calculation.
 
     Enhanced Visualization – Improved graphical representations using seaborn.
+
+---
 
 ***Future Roadmap***
 
@@ -73,13 +82,8 @@ The Nepal Population Analysis Tool is a **Command-Line Interface (CLI)-based** p
 
     Development of an interactive GUI or web dashboard.
 
-***Author***
-
-    Dhawa Dorje Ghising (DhawaDG)
-
-***License**
-
-    This project is licensed under the MIT License. See the file LICENSE for details.
+---
+##  **📂[EDA Projects List →](https://github.com/DhawaDG/EDA_project_summary/blob/main/README.md)** 
 
 
 
